@@ -23,6 +23,7 @@
         android:textSize="20dp"/>
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/login_username" />
@@ -32,6 +33,7 @@
         android:layout_height="10dp" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -53,6 +55,7 @@
         android:weightSum="2">
 
         <Button
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login_login_btn"
