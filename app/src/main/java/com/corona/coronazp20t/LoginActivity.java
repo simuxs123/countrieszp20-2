@@ -24,12 +24,18 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // cia rasomas kodas kuris vykdomas paspaudus mygtuka
-                Toast.makeText(LoginActivity.this,"prisijungimo vardas:"+
+               /* Toast.makeText(LoginActivity.this,"prisijungimo vardas:"+
                         username.getText().toString() + "\n" + "slaptazodis:" +
-                        password.getText().toString(), Toast.LENGTH_LONG).show();
-                //ketinimas pereiti i paieskos langa                is kur            į kur
-                Intent goToSeachActivity=new Intent(LoginActivity.this,SeachActivity.class);
-                startActivity(goToSeachActivity);
+                        password.getText().toString(), Toast.LENGTH_LONG).show();*/
+                if (Validation.isValidUsername(username.getText().toString())){
+                    //ketinimas pereiti i paieskos langa                is kur            į kur
+                    Intent goToSeachActivity=new Intent(LoginActivity.this,SeachActivity.class);
+                    startActivity(goToSeachActivity);
+                }
+                else{//Jeigu vartotojas ivede bloga prisijungimo varda
+                    username.setError(getResources().getString(R.string.login_invalid_username));
+                    username.requestFocus();
+                }
 
             }
         });
