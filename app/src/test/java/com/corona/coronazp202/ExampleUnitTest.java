@@ -1,4 +1,4 @@
-package com.corona.coronazp20t;
+package com.corona.coronazp202;
 
 import org.junit.Test;
 

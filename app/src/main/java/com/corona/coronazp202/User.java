@@ -1,4 +1,4 @@
-package com.corona.coronazp20t;
+package com.corona.coronazp202;
 
 public class User {
     //1. Objekto požymiai(argumentai, kintamieji)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.corona.coronazp20t">
+    package="com.corona.coronazp202">
 
     <application
         android:allowBackup="true"
@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeachActivity"></activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.corona.coronazp202.SeachActivity"></activity>
+        <activity android:name="com.corona.coronazp202.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
