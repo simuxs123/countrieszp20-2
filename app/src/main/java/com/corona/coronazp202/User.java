@@ -11,7 +11,7 @@ public class User {
 
     //shared preferences(bendros nuostatos) - privatus duomenys prisijungimui prie aplikacijos
     private SharedPreferences sharedPreferences;//private-matomi klases ribose tiktai
-    private static final String PREFERENCES_PACKAGE_NAME="com.corona.coronazp20t";
+    private static final String PREFERENCES_PACKAGE_NAME="com.corona.coronazp20";
     private static final String USERNAME_KEY="username";//final - reiskia, kad reiksme nekis (kaip const javascript'e), negalima jos visoje programoje pakeisti
     private static final String PASSWORD_KEY="password";//static - kad nekurdami objekto galim prie jo prieiti
     private static final String REMEMBERME_KEY="rememberMe";
