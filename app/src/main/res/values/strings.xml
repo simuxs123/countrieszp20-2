@@ -8,4 +8,7 @@
     <string name="login_login_btn">Login</string>
     <string name="login_register_btn">Register</string>
     <string name="login_invalid_username">Wrong username or/ and password</string>
+
+    <string name="search_loading_data">Please wait for covid data to be displayed</string>
+    <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
 </resources>
