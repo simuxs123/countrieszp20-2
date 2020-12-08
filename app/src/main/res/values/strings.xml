@@ -1,14 +1,17 @@
 <resources>
-    <string name="app_name">CoronaZP20/2</string>
+    <string name="app_name">CoronaZP20T</string>
     <string name="app_title">infection online status</string>
 
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
-    <string name="login_remember_me">Remember me</string>
+    <string name="login_checkbox">Remember me</string>
     <string name="login_login_btn">Login</string>
     <string name="login_register_btn">Register</string>
-    <string name="login_invalid_username">Wrong username or/ and password</string>
+    <string name="login_invalid_username">Wrong Username Or/And Password</string>
 
     <string name="search_loading_data">Please wait for covid data to be displayed</string>
     <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
+    <string name="search_no_results">No search results found for query: </string>
+    <string name="search_found_entries_from_api">Found total number of corona entries: </string>
+
 </resources>

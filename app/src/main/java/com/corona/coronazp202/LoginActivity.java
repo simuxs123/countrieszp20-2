@@ -18,11 +18,11 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);//atidaromas langas (tuscias)
         setContentView(R.layout.activity_login);//pridek prie to lango, vaizda
         //kodas rasomas nuo cia
-        Button login=findViewById(R.id.login);//susiejamas vaizde esantis elementa su kodu
-        final EditText username=findViewById(R.id.username);
-        final EditText password=findViewById(R.id.password);
+        Button login=findViewById(R.id.loginbatonas);//susiejamas vaizde esantis elementa su kodu
+        final EditText username=findViewById(R.id.usernametext);
+        final EditText password=findViewById(R.id.passwordtext);
 
-        final CheckBox rememberme = (CheckBox) findViewById(R.id.remember_me);
+        final CheckBox rememberme = (CheckBox) findViewById(R.id.rememberMe);
         //bus konstruojamas vartotojo objektas perduodant context'a (langa kuriame esame)
         final User user=new User(LoginActivity.this);
         //patikriname, ar paskutini karta buvo pazymetas checkbox remember me
@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
                         user.setRemembermeKeyForLogin(false);
                     }
                     //ketinimas pereiti i paieskos langa                is kur            į kur
-                    Intent goToSeachActivity=new Intent(LoginActivity.this,SeachActivity.class);
+                    Intent goToSeachActivity=new Intent(LoginActivity.this, SearchActivity.class);
                     startActivity(goToSeachActivity);
                 }
                 else{//Jeigu vartotojas ivede bloga prisijungimo varda
