@@ -1,6 +1,7 @@
 package com.corona.coronazp202;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -68,7 +69,8 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         // Click event for all items
         @Override
         public void onClick(View v) {
-            Toast.makeText(context, "You clicked an item", Toast.LENGTH_SHORT).show();
+            Intent goToNewEntryActivity = new Intent(context, NewEntryActivity.class);
+            context.startActivity(goToNewEntryActivity);
         }
     }
 }

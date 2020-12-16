@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/new_entry_country"
+                android:textColor="@color/colorWhite"/>
+
+            <CheckBox
+                android:id="@+id/country_lithuania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_country_lithuania" />
+
+            <CheckBox
+                android:id="@+id/country_latvia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_country_latvia" />
+
+            <CheckBox
+                android:id="@+id/country_estonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_country_estonia" />
+
+            <CheckBox
+                android:id="@+id/country_poland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_country_poland"
+                android:checked="true"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_deaths"
+                android:textColor="@color/colorWhite"/>
+
+            <RadioGroup
+                android:id="@+id/deaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_deaths_100" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_deaths_500" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_deaths_1000" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_deaths_2000"
+                    android:checked="true"/>
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/new_entry_last_update"
+                android:textColor="@color/colorWhite"/>
+
+            <Spinner
+                android:id="@+id/last_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/new_entry_last_update_spinner" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/new_entry_confirmed"
+                android:textColor="@color/colorWhite"/>
+
+            <EditText
+                android:id="@+id/confirmed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/display_selected_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorRed"
+                android:text="@string/new_entry_display_btn" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
