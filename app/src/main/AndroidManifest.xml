@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.corona.coronazp202">
+    package="com.countries.countrieszp202">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,14 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewEntryActivity"></activity>
+
 
         <meta-data
             android:name="android.app.default_searchable"
             android:value=".SearchActivity" />
 
         <activity
-            android:name=".SearchActivity"
+            android:name="com.countries.countrieszp202.SearchActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -29,7 +29,7 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.countries.countrieszp202.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

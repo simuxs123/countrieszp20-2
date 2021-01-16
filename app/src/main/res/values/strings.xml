@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">CoronaZP20T</string>
-    <string name="app_title">infection online status</string>
+    <string name="app_name">CountriesZP20-2</string>
+    <string name="app_title">Countries list</string>
 
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
@@ -9,29 +9,11 @@
     <string name="login_register_btn">Register</string>
     <string name="login_invalid_username">Wrong Username Or/And Password</string>
 
-    <string name="search_loading_data">Please wait for covid data to be displayed</string>
+    <string name="search_loading_data">Please wait for countries data to be displayed</string>
     <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
     <string name="search_no_results">No search results found for query: </string>
-    <string name="search_found_entries_from_api">Found total number of corona entries: </string>
+    <string name="search_found_entries_from_api">Found total number of countries entries: </string>
 
-    <string name="new_entry_last_update">Last update:</string>
-    <string-array name="new_entry_last_update_spinner">
-        <item>2020-12-16T05:28:04+00:00</item>
-        <item>2020-12-15T05:28:04+00:00</item>
-        <item>2020-12-14T05:28:04+00:00</item>
-        <item>2020-12-13T05:28:04+00:00</item>
-    </string-array>
-    <string name="new_entry_deaths">Deaths:</string>
-    <string name="new_entry_deaths_100">100</string>
-    <string name="new_entry_deaths_500">500</string>
-    <string name="new_entry_deaths_1000">1000</string>
-    <string name="new_entry_deaths_2000">2000</string>
-    <string name="new_entry_country">Country:</string>
-    <string name="new_entry_country_lithuania">Lithuania</string>
-    <string name="new_entry_country_latvia">Latvia</string>
-    <string name="new_entry_country_estonia">Estonia</string>
-    <string name="new_entry_country_poland">Poland</string>
-    <string name="new_entry_confirmed">Confirmed:</string>
-    <string name="new_entry_display_btn">Display selected</string>
+
 
 </resources>

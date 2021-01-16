@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.corona.coronazp20t"
+        applicationId "com.countries.countrieszp202"
         minSdkVersion 27
         targetSdkVersion 28
         versionCode 1
