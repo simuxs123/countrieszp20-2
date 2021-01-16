@@ -32,17 +32,18 @@ public class JSON {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
             String jsonText = readAll(rd);
             JSONObject json = new JSONObject(jsonText);
+            Log.d("pirmas url","veikia");
+            Log.d("pirmas url",json.toString());
             return json;
         } finally {
-            Log.d("very bad","something wrong");
             is.close();
         }
     }
 
     public static JSONArray getJSONArray(JSONObject json) throws JSONException {
-        
-        JSONArray jsonArray = json.getJSONArray("");
 
+        JSONArray jsonArray = json.getJSONArray("");
+        Log.d("antras",jsonArray.toString());
         return jsonArray;
     }
 

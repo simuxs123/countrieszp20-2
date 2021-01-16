@@ -107,7 +107,7 @@ public class SearchActivity extends AppCompatActivity {
         protected ArrayList<Countries> doInBackground(String... params) {
 
             try {
-                JSONObject jsonObject = JSON.readJsonFromUrl("https://covid19-api.weedmark.systems/api/v1/stats");
+                JSONObject jsonObject = JSON.readJsonFromUrl(COUNTRIES_API);
                 JSONArray jsonArray = null;
                 countriesList = new ArrayList<Countries>();
                     try {
