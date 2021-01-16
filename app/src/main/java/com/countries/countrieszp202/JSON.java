@@ -40,13 +40,7 @@ public class JSON {
     }
 
     public static JSONArray getJSONArray(JSONObject json) throws JSONException {
-        // removing from JSON all unnecessary information and leaving only covid19Stats array
-        //int jsonLength = json.toString().length();
-        //String covid19Stats = "{" + json.toString().substring(0, jsonLength) + "}";
-
-        // String to JSONObject
-        //JSONObject jsonObject = new JSONObject(covid19Stats);
-        //JSONObject to JSONArray
+        
         JSONArray jsonArray = json.getJSONArray("");
 
         return jsonArray;
